@@ -3,6 +3,9 @@ a bash script that parses PDF receipts, renames each, and appends their details 
 
 I made this to save some time uploading FSA receipts at the end of the year.
 
+Dependcy:
+If your distro doesn't include `pdftotext`, you'll need to install it. 
+
 Usage:
 1. download parse.sh and place it in the same folder as your PDF receipts
 2. `chmod +x parse.sh`, which allows the script to be executed
